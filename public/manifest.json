@@ -1,0 +1,18 @@
+{
+    "manifest_version": 3,
+    "name": "Reload",
+    "version": "1.0",
+    "description": "An extension to empty cache and hard reload the page.",
+    "permissions": [
+      "activeTab",
+      "browsingData",
+      "scripting"
+    ],
+    "background": {
+      "service_worker": "background.ts"
+    },
+    "action": {
+      "default_popup": "popup.html"
+    }
+  }
+  
